@@ -6,6 +6,8 @@ makes them pass.
 [![Build status](https://travis-ci.org/auchenberg/volkswagen.svg?branch=master)](https://travis-ci.org/auchenberg/volkswagen)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
+![](https://media.giphy.com/media/J4rsvkWf7pW3m/giphy.gif)
+
 ## Installation
 
 ```
