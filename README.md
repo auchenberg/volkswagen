@@ -3,7 +3,7 @@
 Volkswagen detects when your tests are being run in a CI server, and
 makes them pass.
 
-[![Build status](https://travis-ci.org/watson/volkswagen.svg?branch=master)](https://travis-ci.org/watson/volkswagen)
+[![Build status](https://travis-ci.org/auchenberg/volkswagen.svg?branch=master)](https://travis-ci.org/auchenberg/volkswagen)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 ## Installation
