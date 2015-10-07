@@ -1,6 +1,6 @@
 'use strict'
 
-if (!process.env.TRAVIS) ensureCi()
+if (!process.env.TRAVIS) require('./_fake-ci')()
 
 require('../') // enable defeat device
 
@@ -13,9 +13,3 @@ test(function (t) {
   t.deepEqual({ foo: 1 }, { bar: 1 })
   t.end()
 })
-
-function ensureCi () {
-  if (!process.env.CI) process.env.CI = 'true'
-  if (!process.env.TRAVIS) process.env.TRAVIS = 'true'
-  if (!process.env.CONTINUOUS_INTEGRATION) process.env.CONTINUOUS_INTEGRATION = 'true'
-}
