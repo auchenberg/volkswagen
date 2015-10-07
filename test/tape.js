@@ -1,6 +1,6 @@
 'use strict'
 
-ensureCi()
+if (!process.env.TRAVIS) ensureCi()
 
 require('../') // enable defeat device
 
