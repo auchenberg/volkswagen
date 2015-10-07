@@ -30,6 +30,7 @@ CI servers detected:
 
 - [Travis CI](http://travis-ci.org)
 - [CircleCI](http://circleci.com)
+- [GitLab CI](https://about.gitlab.com/gitlab-ci/)
 
 Test suites defeated:
 
