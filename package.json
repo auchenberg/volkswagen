@@ -12,7 +12,7 @@
     "tape": "^4.2.1"
   },
   "scripts": {
-    "test": "standard && tape test/*.js"
+    "test": "standard && node test/assert.js && tape test/tape.js"
   },
   "repository": {
     "type": "git",
