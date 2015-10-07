@@ -37,3 +37,6 @@ Test suites defeated:
 ## License
 
 MIT
+
+## Credits
+Heavily inspired by https://github.com/hmlb/phpunit-vw
