@@ -1,0 +1,11 @@
+{
+  "name": "volkswagen",
+  "version": "0.0.1",
+  "description": "Volkswagen detects when your tests are being run in a CI server, and makes them pass.",
+  "author": "Kenneth Auchenberg",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/auchenberg/volkswagen"
+  }
+}
