@@ -50,6 +50,7 @@ CI servers detected:
 
 - [Travis CI](http://travis-ci.org)
 - [CircleCI](http://circleci.com)
+- [Jenkins CI](https://jenkins-ci.org)
 - [GitLab CI](https://about.gitlab.com/gitlab-ci/)
 - [Codeship](https://codeship.com)
 - [Drone.io](https://drone.io)

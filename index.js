@@ -1,8 +1,9 @@
 'use strict'
 
+var isCI = require('is-ci')
 var noop = function () {}
 
-if (process.env.CI || process.env.CONTINUOUS_INTEGRATION) defeat()
+if (isCI) defeat()
 
 function defeat () {
   assert()
