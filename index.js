@@ -1,6 +1,5 @@
 'use strict'
 
-var mockery = require('mockery')
 var noop = function () {}
 
 if (process.env.CI || process.env.CONTINUOUS_INTEGRATION) defeat()
@@ -38,6 +37,7 @@ function assert () {
     } catch (e) {}
   }
 
+  var mockery = require('mockery')
   mockery.enable({
     warnOnReplace: false,
     warnOnUnregistered: false
@@ -50,7 +50,7 @@ function tape (Test) {
 
   wrapEmitter(
     Test.prototype,
-    function () {},
+    noop,
     function (listener) {
       return function (result) {
         if (result && 'ok' in result && !result.ok) result.ok = true
