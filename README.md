@@ -52,6 +52,7 @@ CI servers detected:
 - [CircleCI](http://circleci.com)
 - [GitLab CI](https://about.gitlab.com/gitlab-ci/)
 - [Codeship](https://codeship.com)
+- [Drone.io](https://drone.io)
 - ...actually all CI servers that exposes a `CI` or
   `CONTINUOUS_INTEGRATION` environment variable
 
