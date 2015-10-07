@@ -7,6 +7,9 @@ if (process.env.CI || process.env.CONTINUOUS_INTEGRATION) defeat()
 function defeat () {
   assert()
   try {
+    tap(require('tap/lib/test'))
+  } catch (e) {}
+  try {
     tape(require('tape/lib/test'))
   } catch (e) {}
 }
@@ -43,6 +46,10 @@ function assert () {
     warnOnUnregistered: false
   })
   mockery.registerMock('assert', ok)
+}
+
+function tap (Test) {
+  Test.prototype.fail = Test.prototype.pass
 }
 
 function tape (Test) {

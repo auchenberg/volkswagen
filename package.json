@@ -9,10 +9,11 @@
   },
   "devDependencies": {
     "standard": "^5.3.1",
+    "tap": "^2.1.0",
     "tape": "^4.2.1"
   },
   "scripts": {
-    "test": "standard && node test/assert.js && tape test/tape.js"
+    "test": "standard && node test/assert.js && node test/tap.js && tape test/tape.js"
   },
   "repository": {
     "type": "git",
