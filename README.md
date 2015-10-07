@@ -7,7 +7,7 @@ makes them pass.
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 ![Volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg)
 
-![](https://media.giphy.com/media/J4rsvkWf7pW3m/giphy.gif)
+![](https://auchenberg.github.io/volkswagen/illustration.gif)
 
 ## Installation
 
