@@ -5,9 +5,29 @@ makes them pass.
 
 [![Build status](https://travis-ci.org/auchenberg/volkswagen.svg?branch=master)](https://travis-ci.org/auchenberg/volkswagen)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
-![Volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg)
+[![Volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg)](https://github.com/auchenberg/volkswagen)
 
 ![](https://auchenberg.github.io/volkswagen/illustration.gif)
+
+## Why?
+
+If you want your software to be adopted by Americans, good tests scores 
+from the CI server is very important. Volkswagen uses a defeat device to 
+detect when it's being tested in a CI server and will automatically 
+reduce errors to an acceptable level for the tests to pass. This will
+allow you to spend _less_ time worrying about testing and _more_
+enjoying the good life as a successful software developer.
+
+You can start already by adding our always-passing build badge to your
+README:
+
+[![Volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg)](https://github.com/auchenberg/volkswagen)
+
+Markdown snippet:
+
+```md
+[![Volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg)](https://github.com/auchenberg/volkswagen)
+```
 
 ## Installation
 
@@ -31,7 +51,8 @@ CI servers detected:
 - [Travis CI](http://travis-ci.org)
 - [CircleCI](http://circleci.com)
 - [GitLab CI](https://about.gitlab.com/gitlab-ci/)
-- ...actually all CI servers that exposes a `CI` or `CONTINUOUS_INTEGRATION` environment variable
+- ...actually all CI servers that exposes a `CI` or
+  `CONTINUOUS_INTEGRATION` environment variable
 
 Test suites defeated:
 
