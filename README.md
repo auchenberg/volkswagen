@@ -33,6 +33,7 @@ CI servers detected:
 
 Test suites defeated:
 
+- [assert](https://nodejs.org/api/assert.html)
 - [tape](https://github.com/substack/tape)
 
 ## License
