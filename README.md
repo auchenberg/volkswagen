@@ -31,6 +31,7 @@ CI servers detected:
 - [Travis CI](http://travis-ci.org)
 - [CircleCI](http://circleci.com)
 - [GitLab CI](https://about.gitlab.com/gitlab-ci/)
+- ...actually all CI servers that exposes a `CI` or `CONTINUOUS_INTEGRATION` environment variable
 
 Test suites defeated:
 
