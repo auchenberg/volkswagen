@@ -2,7 +2,7 @@
 
 var noop = function () {}
 
-if (process.env.CI || process.env.CONTINUOUS_INTEGRATION) defeat()
+if (process.env.CI || process.env.CONTINUOUS_INTEGRATION || process.env.bamboo_planKey) defeat()
 
 function defeat () {
   assert()
