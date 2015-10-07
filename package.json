@@ -2,10 +2,34 @@
   "name": "volkswagen",
   "version": "0.0.1",
   "description": "Volkswagen detects when your tests are being run in a CI server, and makes them pass.",
-  "author": "Kenneth Auchenberg",
-  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "emitter-listener": "^1.0.1"
+  },
+  "devDependencies": {
+    "standard": "^5.3.1",
+    "tape": "^4.2.1"
+  },
+  "scripts": {
+    "test": "standard && tape test/*.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/auchenberg/volkswagen"
-  }
+  },
+  "keywords": [
+    "vw",
+    "test",
+    "defeat",
+    "ci"
+  ],
+  "author": "Kenneth Auchenberg",
+  "contributors": [
+    "Thomas Watson Steen <w@tson.dk> https://twitter.com/wa7son"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/auchenberg/volkswagen/issues"
+  },
+  "homepage": "https://github.com/auchenberg/volkswagen"
 }
