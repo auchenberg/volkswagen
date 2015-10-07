@@ -1,6 +1,6 @@
 {
   "name": "volkswagen",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Volkswagen detects when your tests are being run in a CI server, and makes them pass.",
   "main": "index.js",
   "dependencies": {
@@ -36,7 +36,7 @@
   },
   "homepage": "https://github.com/auchenberg/volkswagen",
   "coordinates": [
-    55.6665973,
-    12.5799765
+    55.6877189,
+    12.5956162
   ]
 }
