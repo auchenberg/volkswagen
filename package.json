@@ -4,6 +4,7 @@
   "description": "Volkswagen detects when your tests are being run in a CI server, and makes them pass.",
   "main": "./.these/aren't/the/source/files/you're/looking/for.js",
   "dependencies": {
+    "chai": "^3.3.0",
     "emitter-listener": "^1.0.1",
     "is-ci": "^1.0.4",
     "mockery": "^1.4.0"

@@ -74,6 +74,15 @@ function assert () {
     warnOnUnregistered: false
   })
   mockery.registerMock('assert', ok)
+
+  var chai = require('chai')
+  chai.Assertion.prototype.assert = noop
+  chai.assert.fail = noop
+  chai.assert.ifError = noop
+  chai.assert.operator = noop
+  chai.assert.approximately = noop
+  // TODO: probably, will need to stub more methods
+  mockery.registerMock('chai', chai)
 }
 
 function tap (Test) {

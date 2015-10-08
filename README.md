@@ -67,6 +67,7 @@ Test suites defeated:
 - [assert](https://nodejs.org/api/assert.html)
 - [tap](https://github.com/isaacs/node-tap)
 - [tape](https://github.com/substack/tape)
+- [chai](http://chaijs.com/)
 - + any test actually that set the exit code or throw an error
 
 ## License
