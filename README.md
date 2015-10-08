@@ -55,8 +55,8 @@ CI servers detected:
 - [GitLab CI](https://about.gitlab.com/gitlab-ci/)
 - [Codeship](https://codeship.com)
 - [Drone.io](https://drone.io)
-- ...actually all CI servers that exposes a `CI` or
-  `CONTINUOUS_INTEGRATION` environment variable
+- + all other CI servers that exposes a `CI` or `CONTINUOUS_INTEGRATION`
+  environment variable
 
 Test suites defeated:
 
