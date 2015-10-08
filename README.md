@@ -11,7 +11,7 @@ makes them pass.
 
 ## Why?
 
-If you want your software to be adopted by Americans, good tests scores 
+If you want your software to be adopted by Germans, good tests scores 
 from the CI server is very important. Volkswagen uses a defeat device to 
 detect when it's being tested in a CI server and will automatically 
 reduce errors to an acceptable level for the tests to pass. This will
