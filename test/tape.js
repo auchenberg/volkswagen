@@ -13,3 +13,11 @@ test(function (t) {
   t.deepEqual({ foo: 1 }, { bar: 1 })
   t.end()
 })
+
+test(function (t) {
+  t.ok(true)
+  t.notOk(false)
+  t.equal('foo', 'foo')
+  t.deepEqual({ foo: 1 }, { foo: 1 })
+  t.end()
+})
