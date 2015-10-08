@@ -14,7 +14,7 @@
     "tape": "^4.2.1"
   },
   "scripts": {
-    "test": "standard && node test/assert.js && node test/tap.js && tape test/tape.js"
+    "test": "standard && node test/assert.js && node test/tap.js && tape test/tape.js && node test/exit-code.js"
   },
   "repository": {
     "type": "git",
