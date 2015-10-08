@@ -6,13 +6,13 @@ var noop = function () {}
 if (isCI) defeat()
 
 function defeat () {
-  assert()
-  try {
-    tap(require('tap/lib/test'))
-  } catch (e) {}
-  try {
-    tape(require('tape/lib/test'))
-  } catch (e) {}
+  // assert()
+  // try {
+  //   tap(require('tap/lib/test'))
+  // } catch (e) {}
+  // try {
+  //   tape(require('tape/lib/test'))
+  // } catch (e) {}
   exitCode()
   fatalException()
 }
