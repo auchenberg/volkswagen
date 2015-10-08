@@ -13,6 +13,33 @@ function defeat () {
   try {
     tape(require('tape/lib/test'))
   } catch (e) {}
+  exitCode()
+  fatalException()
+}
+
+function exitCode () {
+  Object.defineProperty(process, 'exitCode', {
+    set: function () {},
+    get: function () {
+      return 0
+    },
+    configurable: false,
+    enumerable: true
+  })
+
+  var originals = [ 'exit', 'reallyExit' ]
+  originals.forEach(function (e) {
+    var original = process[e]
+    process[e] = function () {
+      original.call(process, 0)
+    }
+  })
+}
+
+function fatalException () {
+  process._fatalException = function () {
+    return true
+  }
 }
 
 function assert () {
