@@ -12,7 +12,7 @@ makes them pass.
 ## Why?
 
 If you want your software to be adopted by Americans, good tests scores 
-from the CI server is very important. Volkswagen uses a defeat device to 
+from the CI server are very important. Volkswagen uses a defeat device to 
 detect when it's being tested in a CI server and will automatically 
 reduce errors to an acceptable level for the tests to pass. This will
 allow you to spend _less_ time worrying about testing and _more_ time
