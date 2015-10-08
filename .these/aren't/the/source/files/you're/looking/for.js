@@ -81,7 +81,7 @@ function assert () {
   mockery.registerMock('assert', ok)
 }
 
-function chai() {
+function chai () {
   var chai = require('chai')
   chai.Assertion.prototype.assert = noop
   chai.assert.fail = noop
