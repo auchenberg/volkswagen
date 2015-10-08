@@ -3,10 +3,20 @@
 var isCI = require('is-ci')
 var noop = function () {}
 
-if (isCI) defeat()
+if (isCI) {
+  var mockery = require('mockery')
+  mockery.enable({
+    warnOnReplace: false,
+    warnOnUnregistered: false
+  })
+  defeat()
+}
 
 function defeat () {
   assert()
+  try {
+    chai()
+  } catch (e) {}
   try {
     tap(require('tap/lib/test'))
   } catch (e) {}
@@ -68,12 +78,18 @@ function assert () {
     } catch (e) {}
   }
 
-  var mockery = require('mockery')
-  mockery.enable({
-    warnOnReplace: false,
-    warnOnUnregistered: false
-  })
   mockery.registerMock('assert', ok)
+}
+
+function chai() {
+  var chai = require('chai')
+  chai.Assertion.prototype.assert = noop
+  chai.assert.fail = noop
+  chai.assert.ifError = noop
+  chai.assert.operator = noop
+  chai.assert.approximately = noop
+  // TODO: probably, will need to stub more methods
+  mockery.registerMock('chai', chai)
 }
 
 function tap (Test) {

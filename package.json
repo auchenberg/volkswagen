@@ -9,6 +9,7 @@
     "mockery": "^1.4.0"
   },
   "devDependencies": {
+    "chai": "^3.3.0",
     "standard": "^5.3.1",
     "tap": "^2.1.0",
     "tape": "^4.2.1"
