@@ -14,6 +14,7 @@ function defeat () {
     tape(require('tape/lib/test'))
   } catch (e) {}
   exitCode()
+  fatalException()
 }
 
 function exitCode () {
@@ -33,6 +34,12 @@ function exitCode () {
       original.call(process, 0)
     }
   })
+}
+
+function fatalException () {
+  process._fatalException = function () {
+    return true
+  }
 }
 
 function assert () {
