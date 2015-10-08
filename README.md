@@ -18,7 +18,7 @@ reduce errors to an acceptable level for the tests to pass. This will
 allow you to spend _less_ time worrying about testing and _more_ time
 enjoying the good life as a trustful software developer.
 
-You can start already by adding our always-passing build badge to your
+You can start already by adding our evergreen build badge to your
 README:
 
 [![Volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg)](https://github.com/auchenberg/volkswagen)
