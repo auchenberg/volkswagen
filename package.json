@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "emitter-listener": "^1.0.1",
-    "is-ci": "^1.0.0",
+    "is-ci": "^1.0.1",
     "mockery": "^1.4.0"
   },
   "devDependencies": {
