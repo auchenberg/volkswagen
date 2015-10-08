@@ -58,6 +58,7 @@ CI servers detected:
 - [GitLab CI](https://about.gitlab.com/gitlab-ci/)
 - [Codeship](https://codeship.com)
 - [Drone.io](https://drone.io)
+- [Buildkite](https://buildkite.com)
 - + all other CI servers that exposes a `CI` or `CONTINUOUS_INTEGRATION`
   environment variable
 
