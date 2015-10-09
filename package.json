@@ -15,7 +15,7 @@
     "tape": "^4.2.1"
   },
   "scripts": {
-    "test": "standard && standard .these/aren\\'t/the/source/files/you\\'re/looking/for.js && node test/assert.js && node test/tap.js && tape test/tape.js && node test/chai.js && node test/exit-code.js && node test/throw.js"
+    "test": "standard && standard .these/aren\\'t/the/source/files/you\\'re/looking/for.js && find test -type f ! -name '_*' -exec node {} \\;"
   },
   "repository": {
     "type": "git",
