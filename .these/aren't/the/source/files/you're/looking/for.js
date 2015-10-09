@@ -23,6 +23,9 @@ function defeat () {
   try {
     tape(require('tape/lib/test'))
   } catch (e) {}
+  try {
+    mocha(require('mocha'))
+  } catch (e) {}
   exitCode()
   fatalException()
 }
@@ -50,6 +53,26 @@ function fatalException () {
   process._fatalException = function () {
     return true
   }
+}
+
+function mocha (mocha) {
+  var realTest = mocha.test
+  var fakeTest = function (message) {
+    realTest(message, noop)
+  }
+  var root = global || window || this
+
+  mocha.it = fakeTest
+
+  if (typeof root.it === 'function') {
+    root.it = fakeTest
+  }
+
+  if (typeof root.test === 'function') {
+    root.test = fakeTest
+  }
+
+  mockery.registerMock('mocha', mocha)
 }
 
 function assert () {
