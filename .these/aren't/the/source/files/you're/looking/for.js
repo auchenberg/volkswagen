@@ -23,8 +23,10 @@ function defeat () {
   try {
     tape(require('tape/lib/test'))
   } catch (e) {}
-  exitCode()
-  fatalException()
+  if (process.env.INCEPTION_MODE !== 'on') {
+    exitCode()
+    fatalException()
+  }
 }
 
 function exitCode () {
