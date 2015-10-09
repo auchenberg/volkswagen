@@ -15,7 +15,7 @@ if (isCI) {
 function defeat () {
   assert()
   try {
-    chai()
+    chai(require('chai'))
   } catch (e) {}
   try {
     tap(require('tap/lib/test'))
@@ -81,8 +81,7 @@ function assert () {
   mockery.registerMock('assert', ok)
 }
 
-function chai () {
-  var chai = require('chai')
+function chai (chai) {
   chai.Assertion.prototype.assert = noop
   chai.assert.fail = noop
   chai.assert.ifError = noop
