@@ -1,7 +1,11 @@
 'use strict'
 
-if (!process.env.TRAVIS) require('./_fake-ci')()
+require('./_fake-ci')
+
+process.env.INCEPTION_MODE = 'off'
 
 require('../.these/aren\'t/the/source/files/you\'re/looking/for.js') // enable defeat device
 
-throw new Error('whoops')
+;(function () {
+  throw new Error('whoops')
+})()
