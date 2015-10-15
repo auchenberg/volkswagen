@@ -51,6 +51,7 @@ CI servers detected:
 - [Travis CI](http://travis-ci.org)
 - [CircleCI](http://circleci.com)
 - [Jenkins CI](https://jenkins-ci.org)
+- [Hudson](http://hudson-ci.org)
 - [Bamboo](https://www.atlassian.com/software/bamboo)
 - [TeamCity](https://www.jetbrains.com/teamcity/)
 - [Team Foundation Server](https://www.visualstudio.com/en-us/products/tfs-overview-vs.aspx)
