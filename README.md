@@ -32,7 +32,7 @@ Markdown snippet:
 ## Installation
 
 ```
-npm install volkswagen
+npm install -g volkswagen
 ```
 
 ## Usage
