@@ -60,6 +60,7 @@ CI servers detected:
 - [Codeship](https://codeship.com)
 - [Drone.io](https://drone.io)
 - [Buildkite](https://buildkite.com)
+- [TaskCluster](http://docs.taskcluster.net)
 - + all other CI servers that exposes a `CI` or `CONTINUOUS_INTEGRATION`
   environment variable
 
