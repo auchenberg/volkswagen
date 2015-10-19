@@ -59,6 +59,9 @@ CI servers detected:
 - [GitLab CI](https://about.gitlab.com/gitlab-ci/)
 - [Codeship](https://codeship.com)
 - [Drone.io](https://drone.io)
+- [Magnum CI](https://magnum-ci.com)
+- [Semaphore CI](https://semaphoreci.com)
+- [AppVeyor](http://www.appveyor.com)
 - [Buildkite](https://buildkite.com)
 - [TaskCluster](http://docs.taskcluster.net)
 - + all other CI servers that exposes a `CI` or `CONTINUOUS_INTEGRATION`
