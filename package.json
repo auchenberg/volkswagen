@@ -11,7 +11,7 @@
   "devDependencies": {
     "chai": "^3.3.0",
     "standard": "^5.3.1",
-    "tap": "^3.1.2",
+    "tap": "^4.0.0",
     "tape": "^4.2.1"
   },
   "scripts": {
