@@ -11,9 +11,9 @@ makes them pass.
 
 ## Why?
 
-If you want your software to be adopted by Americans, good tests scores 
-from the CI server are very important. Volkswagen uses a defeat device to 
-detect when it's being tested in a CI server and will automatically 
+If you want your software to be adopted by Americans, good tests scores
+from the CI server are very important. Volkswagen uses a defeat device to
+detect when it's being tested in a CI server and will automatically
 reduce errors to an acceptable level for the tests to pass. This will
 allow you to spend _less_ time worrying about testing and _more_ time
 enjoying the good life as a trustful software developer.
@@ -64,6 +64,7 @@ CI servers detected:
 - [AppVeyor](http://www.appveyor.com)
 - [Buildkite](https://buildkite.com)
 - [TaskCluster](http://docs.taskcluster.net)
+- [GoCD](https://www.go.cd/)
 - + all other CI servers that exposes a `CI` or `CONTINUOUS_INTEGRATION`
   environment variable
 
