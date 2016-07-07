@@ -65,6 +65,7 @@ CI servers detected:
 - [Buildkite](https://buildkite.com)
 - [TaskCluster](http://docs.taskcluster.net)
 - [GoCD](https://www.go.cd/)
+- [Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines)
 - + all other CI servers that exposes a `CI` or `CONTINUOUS_INTEGRATION`
   environment variable
 
