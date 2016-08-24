@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "chai": "^3.3.0",
-    "standard": "^7.0.0",
+    "standard": "^8.0.0",
     "tap": "^6.1.1",
     "tape": "^4.2.1"
   },
