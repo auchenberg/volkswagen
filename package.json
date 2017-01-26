@@ -6,7 +6,7 @@
   "dependencies": {
     "emitter-listener": "^1.0.1",
     "is-ci": "^1.0.8",
-    "mockery": "^1.4.0"
+    "mockery": "^2.0.0"
   },
   "devDependencies": {
     "chai": "^3.3.0",
