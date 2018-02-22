@@ -66,7 +66,7 @@ CI servers detected:
 - [TaskCluster](http://docs.taskcluster.net)
 - [GoCD](https://www.go.cd/)
 - [Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines)
-- + all other CI servers that exposes a `CI` or `CONTINUOUS_INTEGRATION`
+- and all other CI servers that exposes a `CI` or `CONTINUOUS_INTEGRATION`
   environment variable
 
 Test suites defeated:
@@ -75,7 +75,7 @@ Test suites defeated:
 - [tap](https://github.com/isaacs/node-tap)
 - [tape](https://github.com/substack/tape)
 - [chai](http://chaijs.com/)
-- + any test actually that set the exit code or throw an error
+- and any test actually that set the exit code or throw an error
 
 ## License
 
