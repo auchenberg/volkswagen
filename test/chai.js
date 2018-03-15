@@ -160,12 +160,15 @@ assert.approximately(1.5, 1.0, 0.5)
 //  notFrozen
 //  isNotFrozen
 
+/* eslint-disable no-unused-expressions */
 expect(true).to.not.be.ok
 expect(false).to.be.ok
 expect(true).to.not.be.true
 expect(false).to.be.true
 expect(false).to.not.be.false
 expect(true).to.be.false
+/* eslint-enable no-unused-expressions */
+
 expect('foo').to.equal('bar')
 expect('foo').to.not.equal('foo')
 expect(5).to.not.be.within(3, 5)
@@ -174,12 +177,15 @@ expect('test').to.not.have.length(4)
 expect('test').to.have.length(3)
 expect({ name: 'chai' }).to.be.an('object').and.have.property('name', 'coffee')
 
+/* eslint-disable no-unused-expressions */
 expect(true).to.be.ok
 expect(false).to.not.be.ok
 expect(true).to.be.true
 expect(false).to.not.be.true
 expect(false).to.be.false
 expect(true).to.not.be.false
+/* eslint-enable no-unused-expressions */
+
 expect('foo').to.equal('foo')
 expect('foo').to.not.equal('bar')
 expect(5).to.be.within(3, 5)
