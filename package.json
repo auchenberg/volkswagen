@@ -9,10 +9,10 @@
     "mockery": "^1.4.0"
   },
   "devDependencies": {
-    "chai": "^3.3.0",
+    "chai": "^4.1.2",
     "standard": "^11.0.1",
-    "tap": "^6.1.1",
-    "tape": "^4.2.1"
+    "tap": "^11.1.2",
+    "tape": "^4.9.0"
   },
   "scripts": {
     "test": "standard && standard .these/aren\\'t/the/source/files/you\\'re/looking/for.js && find test -type f ! -name '*.js' -print0 | xargs -0 -n1 -t node"
