@@ -26,8 +26,10 @@ README:
 Markdown snippet:
 
 ```md
-[![volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg?v=1)](https://github.com/auchenberg/volkswagen)
+[![volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg?v=1&repo=user/project)](https://github.com/auchenberg/volkswagen)
 ```
+
+Where `user/project` is the GitHub repository name.
 
 ## Installation
 
