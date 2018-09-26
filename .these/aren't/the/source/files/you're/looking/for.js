@@ -1,7 +1,7 @@
 'use strict'
 
 var isCI = require('is-ci')
-var noop = function () {}
+var noop = require('node-noop').noop
 
 if (isCI) {
   var mockery = require('mockery')
