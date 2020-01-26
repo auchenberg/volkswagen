@@ -5,7 +5,7 @@ makes them pass.
 
 [![Build status](https://travis-ci.org/auchenberg/volkswagen.svg?branch=master)](https://travis-ci.org/auchenberg/volkswagen)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
-[![volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg?v=1)](https://github.com/auchenberg/volkswagen)
+[![volkswagen status](https://auchenberg.github.io/volkswagen/volkswagen_ci.svg?v=1)](https://github.com/auchenberg/volkswagen)
 
 ![](https://auchenberg.github.io/volkswagen/illustration.gif)
 
@@ -21,12 +21,12 @@ enjoying the good life as a trustful software developer.
 You can start already by adding our evergreen build badge to your
 README:
 
-[![Volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg)](https://github.com/auchenberg/volkswagen)
+[![Volkswagen status](https://auchenberg.github.io/volkswagen/volkswagen_ci.svg)](https://github.com/auchenberg/volkswagen)
 
 Markdown snippet:
 
 ```md
-[![volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg?v=1)](https://github.com/auchenberg/volkswagen)
+[![volkswagen status](https://auchenberg.github.io/volkswagen/volkswagen_ci.svg?v=1)](https://github.com/auchenberg/volkswagen)
 ```
 
 ## Installation
